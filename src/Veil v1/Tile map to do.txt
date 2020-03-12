@@ -1,0 +1,6 @@
+##~~      CODE      ~~##
+Pathfinding works, however it could be optimised a bit maybe.
+Raycasting needs an overhaul. Just think it from scratch maybe
+
+##~~    Write up    ~~##
+Haven't started

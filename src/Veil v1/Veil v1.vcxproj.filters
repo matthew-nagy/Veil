@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Tile map">
+      <UniqueIdentifier>{92d24fd9-b267-419f-b738-719c8fb996ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tile map\Pathfinding">
+      <UniqueIdentifier>{d3c51696-5c3c-428e-9996-0b4b6a220349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Guardians">
+      <UniqueIdentifier>{90a7351c-2c3e-4369-9e30-9af1b9b0e0a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player and Time">
+      <UniqueIdentifier>{6593b3d7-065a-4b28-b266-c90630472ea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Level">
+      <UniqueIdentifier>{1983dc33-c679-4956-b353-ce3f39875b9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{59da25f7-4d74-4327-a257-48c1e5fa62f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\z Current Levels">
+      <UniqueIdentifier>{6097d2b4-5b25-4506-b95a-2d0ffec2827d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu and control">
+      <UniqueIdentifier>{cb36e41f-b11d-4543-8b81-f714852d2747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\z Current Levels\Load levels">
+      <UniqueIdentifier>{78a86951-1ad6-4792-ba7e-c124fe0d918d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tile.h">
+      <Filter>Source Files\Tile map</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile map.h">
+      <Filter>Source Files\Tile map</Filter>
+    </ClInclude>
+    <ClInclude Include="A star classes.h">
+      <Filter>Source Files\Tile map\Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="A star functions.h">
+      <Filter>Source Files\Tile map\Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="Seeker.h">
+      <Filter>Source Files\Guardians</Filter>
+    </ClInclude>
+    <ClInclude Include="Guardian base.h">
+      <Filter>Source Files\Guardians</Filter>
+    </ClInclude>
+    <ClInclude Include="Spectre.h">
+      <Filter>Source Files\Guardians</Filter>
+    </ClInclude>
+    <ClInclude Include="Stalker.h">
+      <Filter>Source Files\Guardians</Filter>
+    </ClInclude>
+    <ClInclude Include="Player class.h">
+      <Filter>Source Files\Player and Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer HUD.h">
+      <Filter>Source Files\Player and Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Tears.h">
+      <Filter>Source Files\Player and Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Level class.h">
+      <Filter>Source Files\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Special Tiles.h">
+      <Filter>Source Files\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation class.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Binary list.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Options menu.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Particles.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer Vine.h">
+      <Filter>Source Files\Player and Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Start menu.h">
+      <Filter>Source Files\Menu and control</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Level select.h">
+      <Filter>Source Files\Menu and control</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals file access.h">
+      <Filter>Source Files\Menu and control</Filter>
+    </ClInclude>
+    <ClInclude Include="Time based particles.h">
+      <Filter>Source Files\Player and Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Guardian particles.h">
+      <Filter>Source Files\Guardians</Filter>
+    </ClInclude>
+    <ClInclude Include="Split File.h">
+      <Filter>Source Files\z Current Levels\Load levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Parse File.h">
+      <Filter>Source Files\z Current Levels\Load levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Get levels.h">
+      <Filter>Source Files\z Current Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Current Levels.h">
+      <Filter>Source Files\z Current Levels</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Code hell.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="Tile map to do.txt">
+      <Filter>Source Files\Tile map</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
