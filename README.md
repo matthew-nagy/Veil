@@ -8,3 +8,5 @@ A small, timed maze-like game I created (With some rather strong influence from 
 Note about the source code: This was written around Sept 2018 - March 2019 before I learnt about multiple .cpp files, and as a casual
 project. Therefore the layout of the code may involve some bad practices that more recent projects will have avoided. Please do not take
 it as an example of my programming style.
+
+The graphics in this game a rendered with the help of the SFML-2.1 library. Its licence and credits can be found at https://www.sfml-dev.org/license.php
